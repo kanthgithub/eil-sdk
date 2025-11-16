@@ -1,0 +1,11 @@
+{
+  "name": "@eil-protocol/accounts",
+  "type": "module",
+  "scripts": {
+    "build": "tsgo",
+    "clean": "rm -rf dist"
+  },
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT"
+}

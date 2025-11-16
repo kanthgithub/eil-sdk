@@ -1,0 +1,7 @@
+export enum SlashShareRole {
+  PRE_ORIGIN,
+  PRE_DESTINATION,
+  POST_ORIGIN,
+  POST_DESTINATION,
+  L1_PULL
+}

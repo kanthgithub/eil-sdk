@@ -1,0 +1,5 @@
+export enum DisputeType {
+  INSOLVENT_XLP,
+  VOUCHER_OVERRIDE,
+  UNSPENT_VOUCHER_FEE_CLAIM
+}
