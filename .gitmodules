@@ -1,3 +1,6 @@
 [submodule "packages/contracts"]
 	path = packages/contracts
 	url = git@github.com:eth-infinitism/eil-contracts.git
+[submodule "packages/test-eil-app"]
+	path = packages/test-eil-app
+	url = git@github.com:eth-infinitism/test-eil-app.git
