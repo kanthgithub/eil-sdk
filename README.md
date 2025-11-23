@@ -44,7 +44,7 @@ EIL is ideal for applications and users who need to:
 
 ```
 # Install the EIL SDK
-yarn add @eth-infinitism/eil-sdk
+yarn add @eil-protocol/eil-sdk
 ```
 
 ## 📖 Usage
