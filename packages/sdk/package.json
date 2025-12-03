@@ -14,10 +14,12 @@
     }
   },
   "dependencies": {
-    "@eil-protocol/contracts": "^0.1.0"
+    "@eil-protocol/contracts": "^0.1.0",
+    "@nomicfoundation/hardhat-viem": "^3.0.1",
+    "viem": "^2.41.2"
   },
   "scripts": {
-    "build": "npx tsgo",
+    "build": "tsc",
     "clean": "rm -rf dist",
     "prepack": "yarn build"
   },

@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "build": "npx tsgo",
+    "build": "tsc",
     "clean": "rm -rf dist",
     "prepack": "yarn build"
   },
@@ -22,6 +22,7 @@
     "dist"
   ],
   "dependencies": {
-    "permissionless": "^0.3.2"
+    "permissionless": "^0.3.2",
+    "viem": "^2.41.2"
   }
 }

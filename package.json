@@ -8,13 +8,15 @@
     "packages/*"
   ],
   "scripts": {
-    "build-contracts": "yarn workspace @eil-protocol/contracts build",
     "build-sdk": "yarn workspace @eil-protocol/sdk build",
     "build-accounts": "yarn workspace @eil-protocol/accounts build",
-    "build": "yarn build-contracts && yarn build-sdk && yarn build-accounts",
+    "build": "yarn build-sdk && yarn build-accounts",
     "clean": "for p in packages/*; do echo pwd/$p; yarn --cwd $p clean; done"
   },
   "devDependencies": {
-    "@typescript/native-preview": "^7.0.0-dev.20251117.1"
+    "@types/node": "^24.10.1",
+    "@typescript/native-preview": "^7.0.0-dev.20251117.1",
+    "@typescript/native-preview-darwin-arm64": "^7.0.0-dev.20251202.1",
+    "typescript": "^5.9.3"
   }
 }
